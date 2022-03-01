@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>INotes</title>
+</head>
+<body>
+    <div class="container" id="box">
+        <i id="add" class="far fa-calendar-plus">&nbsp;Add ToDo</i>
+        <div class="todo" id="clear">
+            <div class="tool mar">
+                <h3>MyNote</h3>
+                <section>
+                    <i id="copy" onclick="copy()"  title="copy text" class="cpy far fa-copy"></i>
+                    <i id="create" title="Edit/Save" class="edt far fa-edit"></i>
+                    <i id="del" title="delete" class="del fas fa-trash-alt"></i>
+                </section>
+            </div>
+            <textarea name="todo" id="todo" class="rrr" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- onclick="copy()" -->
